@@ -18,6 +18,5 @@ export const publicRoutes = [
     { path: config.routes.upload, component: Upload, layout: HeaderOnly },
     { path: config.routes.search, component: Search, layout: null },
 ];
-
 // Private Routes
 export const privateRoutes = [];
